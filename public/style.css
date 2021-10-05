@@ -1,0 +1,14 @@
+.headerImg img{
+    height: 80px;
+    
+}
+.nav-item{
+    margin-right: 40px;
+}
+hr {
+    margin: 12px 0;
+    border-bottom: 2px solid #f7eeeef1;
+    background-color: #f7eeeef1;
+}
+
+
