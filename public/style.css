@@ -250,21 +250,65 @@ input[type=text]:focus{
     margin-left: 18px;
 }
 
-.contact-us img{
+.dropdown-img{
     margin: 15px 4px;
     border: 2px solid orangered;
     border-radius: 6px;
 }
+
 .dropdown{
     position: relative;
 }
-.dropdown_content{
+#dropdown_content{
+    border:none;
     position: absolute;
     display: none;
+    
 }
-.dropdown:hover .dropdown_content{
+.dropdown:hover #dropdown_content{
     display: block;
 }
+
+#footer-part{
+    
+    background-color:#2d3236da;
+}
+
+#footer-part h3{
+    font-family: 'Economica', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    margin: 35px 0px 15px 0px;
+}
+#footer-part p{
+    color:rgba(119, 142, 168, 0.959);
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+#footer-part h2{
+    
+    color:rgba(35, 55, 77, 0.959);
+    
+}
+
+#footer-part hr {
+    margin: 12px 0;
+    border-bottom: 2px solid rgba(104, 119, 134, 0.959);
+    background-color:  rgba(104, 119, 134, 0.959);
+}
+
+#footer-part i{
+    color: #fff;
+    font-size: 80px;
+    display: inline-block;
+}
+.form-group-footer{
+    margin-top: 10px;
+    color: #fff;
+}
+
+
 
 
 

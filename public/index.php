@@ -283,38 +283,56 @@
             <div class="container">
                 <div class="row">
                     <div class="dropdown">
-                        <img src="images/char3.png" alt="img3">
-                        <div class="dropdown_content">
+                        <div class="dropdown-img">
+                            <img src="images/char3.png" alt="img3">
+                        </div>
+
+                        <div id="dropdown_content">
                             <img src="images/popup3.png" alt="img3">
                         </div>
                     </div>
                     <div class="dropdown">
-                        <img src="images/char4.png" alt="img2">
-                        <div class="dropdown_content">
+                        <div class="dropdown-img">
+                            <img src="images/char4.png" alt="img2">
+                        </div>
+
+                        <div id="dropdown_content">
                             <img src="images/popup2.png" alt="img2">
                         </div>
                     </div>
                     <div class="dropdown">
-                        <img src="images/char5.png" alt="img5">
-                        <div class="dropdown_content">
-                            <img src="images/popup3.png" alt="img5">
+                        <div class="dropdown-img">
+                            <img src="images/char5.png" alt="img">
+                        </div>
+
+                        <div id="dropdown_content">
+                            <img src="images/popup3.png" alt="img3">
                         </div>
                     </div>
                     <div class="dropdown">
-                        <img src="images/char6.png" alt="img6">
-                        <div class="dropdown_content">
-                            <img src="images/popup4.png" alt="img6">
+                        <div class="dropdown-img">
+                            <img src="images/char6.png" alt="img2">
+                        </div>
+
+                        <div id="dropdown_content">
+                            <img src="images/popup4.png" alt="img2">
                         </div>
                     </div>
                     <div class="dropdown">
-                        <img src="images/char1.png" alt="img1">
-                        <div class="dropdown_content">
-                            <img src="images/popup3.png" alt="img1">
+                        <div class="dropdown-img">
+                            <img src="images/char1.png" alt="img2">
+                        </div>
+
+                        <div id="dropdown_content">
+                            <img src="images/popup3.png" alt="img2">
                         </div>
                     </div>
                     <div class="dropdown">
-                        <img src="images/char2.png" alt="img2">
-                        <div class="dropdown_content">
+                        <div class="dropdown-img">
+                            <img src="images/char2.png" alt="img2">
+                        </div>
+
+                        <div id="dropdown_content">
                             <img src="images/popup2.png" alt="img2">
                         </div>
                     </div>
@@ -324,6 +342,63 @@
         </div>
 
     </main>
+
+    <footer>
+        <div id="footer-part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h3>Customer Reviews</h3>
+                        <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro quia ducimus quidem accusamus.
+                            Ratione m adipisci provident ex repellendus voluptatum corporis voluptatem nam, amet nobis tempore dignissimos consequatur ratione sed? "
+                        </p>
+                        <h2>-JOHN ALVES</h2>
+                        <hr>
+                        <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro quia ducimus quidem accusamus.
+                            Ratione m adipisci provident ex repellendus voluptatum corporis voluptatem nam, amet nobis tempore dignissimos consequatur ratione sed? "
+                        </p>
+                        <h2>-KATHERINA JONES</h2>
+
+                    </div>
+
+                    <div class="col-3 ml-5">
+                        <h3>Social Media</h3>
+                        <a href="https://tr-tr.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></a></i>
+                        <br>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square"></a></i>
+                        <a href="https://outlook.live.com/" target="_blank"><i class="fas fa-envelope-square"></a></i>
+                        <br>
+                        <a href="https://mail.google.com/" target="_blank"><i class="fab fa-google-plus-g"></a></i>
+                    </div>
+                    <div class="col-4">
+                        <h3>Send Facebook</h3>
+
+                        <form>
+                            <div class="form-group-footer">
+                                <label for="exampleInputEmail1">Your Name:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">Name and Surname</small>
+                            </div>
+                            <div class="form-group-footer">
+                                <label for="exampleInputPassword1">Mobile Number:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group-footer">
+                                <label for="exampleInputPassword1">Message:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
