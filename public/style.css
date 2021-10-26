@@ -10,5 +10,272 @@ hr {
     border-bottom: 2px solid #f7eeeef1;
     background-color: #f7eeeef1;
 }
+#header-content{
+    background-image: url("images/BG.jpg");
+    margin-right: 125px;
+
+}
+
+#slider-1{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.arrow{
+    color: #555353;
+}
+
+.carousel-control-prev{
+    position: relative;
+    top: 128px;
+    left: 25px;
+    padding-right: 20px;
+}
+
+.carousel-control-next{
+    position: relative;
+    top: 94px;
+    right: -900px;
+    
+}
+
+#slider-1 .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #FF0D00;
+    border-radius: 50%;
+}
+
+div .col-3 img{
+    height: 200px;
+    margin-top: 50px;
+}
+
+.col-7 h4{
+    color: #FF0D00;
+    margin-bottom: 25px;
+}
+
+.slide-text{
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+#main-content{
+    width: 100%;
+    background-image: url("images/www3.jpg");
+}
+
+.ordermakarone{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.makarone{
+    
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+.makarone img{
+    border: 2px solid #fff;
+}
+.carousel-control-prev1{
+    position: relative;
+    top: 190px;
+    left: 65px;
+    padding-right: 20px;
+}
+
+.carousel-control-next1{
+    position: relative;
+    top:190px;
+    right: -910px;
+    
+}
+.makarone h4{
+    color: #fff;
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+    padding-top: 7px;
+}
+#main-content h2{
+    padding-top: 60px;
+    
+}
+
+#dishes{
+    
+    margin-top: 40px;
+    margin-left: 200px;
+}
+#dishes h3{
+    font-family: 'Economica', sans-serif;
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-left:20px;
+    margin-right: 10px;
+}
+#dishes img{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#book-online{
+    background-image: url("images/BG.jpg");
+}
+#book-online-id{
+    
+    margin-top: 40px;
+    margin-left: 190px;
+}
+#book-online-id h3{
+    font-family: 'Economica', sans-serif;
+    display: inline-block;
+    color:rgb(223, 113, 11);
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin-left:20px;
+    margin-right: 10px;
+}
+#book-online-id img{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.book-input{
+    margin-left: 0px;
+    font-family: 'Economica', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    width: 1000px;
+    padding-top:15px;
+    padding-left: 30px;
+}
+input[type=text]{
+    width: 100%;
+    height: 60px;
+    border: 2px solid #3f3b3b;
+    border-radius: 8px;
+    margin: 8px 0;
+    outline: none;
+    padding: 14px;
+    box-sizing: border-box;
+    transition: .3s;
+    background-color: #3f3b3b;
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.nameIcon input[type=text]{
+    padding-left: 40px;
+
+}
+.nameIcon{
+    position: relative;
+}
+.nameIcon i{
+    font-size: 30px;
+    position:absolute;
+    left: 0px;
+    top: 20px;
+    padding-left: 420px;
+    color: #fff;
+    
+}
+input[type=text]{
+    width: 100%;
+    height: 60px;
+    border: 2px solid #3f3b3b;
+    border-radius: 8px;
+    margin: 8px 0;
+    outline: none;
+    padding: 14px;
+    box-sizing: border-box;
+    transition: .3s;
+    background-color: #3f3b3b;
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.nameIcon2 input[type=text]{
+    padding-left: 40px;
+
+}
+.nameIcon2{
+    position: relative;
+}
+.nameIcon2 i{
+    font-size: 30px;
+    position:absolute;
+    left: 0px;
+    top: 20px;
+    padding-left: 265px;
+    color: #fff;
+    
+}
+.bookNow{
+    height: 50px;
+    border-bottom:3px solid rgb(172, 49, 4);
+    border-radius: 10px;
+    background-color: orangered;
+    margin-left: 50px;
+    margin-top: 5px;
+
+}
+.bookNow h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+}
+#contact-online h3{
+    font-family: 'Economica', sans-serif;
+    display: inline-block;
+    color:rgb(223, 113, 11);
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin-left:20px;
+    margin-right: 10px;
+}
+#contact-online img{
+    margin-left: 18px;
+}
+
+.contact-us img{
+    margin: 15px 4px;
+    border: 2px solid orangered;
+    border-radius: 6px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown_content{
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
