@@ -43,7 +43,7 @@
                                             <a class="nav-link" href=""><b>MENU</b></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link "><b>CONTACT</b></a>
+                                            <a class="nav-link " href=""><b>CONTACT</b></a>
                                         </li>
                                     </ul>
                                 </div>
